@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELON - Официальный сайт игры</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">M<span>ELON</span></a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Оверлей для закрытия меню -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    
+    <div class="versions-menu" id="versionsMenu">
+        <div class="version-item active" data-link="https://disk.yandex.ru/d/hBMt7IrXtDWSRQ">
+            Melon 8.1.0.1 release
+        </div>
+        <div class="version-item" data-link="https://disk.yandex.ru/d/ybinzYBxyT_s4A">
+            Melon 8.1.0.1 pre-release
+        </div>
+        <div class="version-item" data-link="https://disk.yandex.ru/d/OcAWOYTec56AZw">
+            Melon 2.0.1
+        </div>
+    </div>
+    
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>MELON</h1>
+            <div class="version-display" id="versionDisplay">
+                Текущая версия: <span>Melon 8.1.0.1 release</span>
+            </div>
+            <p>Отправляйся в увлекательное путешествие по миру MELON!</p>
+            
+            <div class="loader-container" id="loader">
+                <div class="loader"></div>
+            </div>
+            
+            <div class="download-section" id="downloadSection">
+                <a href="https://disk.yandex.ru/d/hBMt7IrXtDWSRQ" class="download-btn" id="downloadBtn">Скачать игру</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="game-description">
+                <p><i class="fas fa-gamepad"></i> <strong>🎮 Это моя первая успешная игра! 🚀</strong></p>
+                <p><i class="fas fa-hourglass-half"></i> Я вложил в неё <strong>3 года ⏳</strong>, создавая в одиночку 👨💻.</p>
+                <p><i class="fas fa-laugh-squint"></i> Это весёлая пародия 😆 на культовую <strong>"Melon Playground" 🍉</strong>,</p>
+                <p><i class="fas fa-search"></i> и в самой игре есть <strong>отсылки к этому 🔎✨</strong>.</p>
+                <p><i class="fas fa-code"></i> Сделано на движке <strong>Pocket Code 🛠️</strong>,</p>
+                <p><i class="fas fa-cat"></i> разработанном <strong>Catrobat 🐱💻</strong>.</p>
+                <p><i class="fas fa-fire"></i> <strong>🔥 Готов к запуску! 🔥</strong></p>
+            </div>
+            
+            <h2 class="section-title">Скриншоты игры</h2>
+            <div class="screenshots">
+                <div class="screenshot">
+                    <img src="https://lh3.googleusercontent.com/LpQ1_h9h7FLI9fRsF7daz3plmzmSBWUrnTeIXhSf7hX_7SPkJI9MF9x6MDiAk21V3YYhnZpmXU7105NDVgcP-n1ZjcvI3ulW4l2g95PsQs6YX34BPY7Im3LGtjxklTSTUgVQriYwAGcitvxxJ7jH03491xCAtM31Ux33-by6zUQ9Bp8DhOox1w=w1280" alt="Скриншот MELON 1">
+                </div>
+                <div class="screenshot">
+                    <img src="https://lh6.googleusercontent.com/qlk3-9W3iTHUZKVsS6mzTvKf7pBsHaWHvjekW4v3QR_zFq27NNYIrJ4UOFU50sBgQ0rr3DvBqBIr170mBhkVhF1EqgTRtAe67deZPF7selij1c3qQmUATgCo64xFH44i9OoFFjygvEXgLht7LyDk7Xe658-MRvTgokLt_LEMwTT8Jwixc3K1ew=w1280" alt="Скриншот MELON 2">
+                </div>
+                <div class="screenshot">
+                    <img src="https://lh5.googleusercontent.com/Unytoy8jdPRn68B8DbtmxNGYOLwlg1T0ym8hEAhGI61r42BA_jbKyZWx2KSYMdk7k72VMtgR63gxhOOZ09gJyhrLeFw5aiG9JZaRH2pjBXnnT4s8TUROWSvHdcTwjWx2SesDJFPFCCHXEaCNqZU97aHShtUD0jnJIn1vcJVC1hR2u9USO9khRA=w1280" alt="Скриншот MELON 3">
+                </div>
+                <div class="screenshot">
+                    <img src="https://lh5.googleusercontent.com/cm5372MrhCcDuUHGleEJULg5yjae78fAtExca24S4_SfBSf2QVouRb5EOFm5qGJMxMU8lyZmMujjd6iF7y0WvC3sQ1Dazun2-Za-O8Sum9bV8ZIUBmbYZHYRK3Ion3mwokp-VvzKDP_2UeWCQRQko1Fw_b23Vd0b3KTuDjVod81OfywnodlXRg=w1280" alt="Скриншот MELON 4">
+                </div>
+                <div class="screenshot">
+                    <img src="https://lh6.googleusercontent.com/PtiYCfoQaZ5KUhOL-usdjbmZSuMlAAeQvMZAsjieK1UM1WReKdP3PZ6EJtrFZ9Kq6TK0-84eBcv6kboL_Pv0ji5y4lbk_ltWc590zI3mCNwAWbj3Fb-Num4Iup3EW_3mOFCvHF6YHlV_wncthJPMHzS-pc2lkwT8vyd5iJLbqYCE5N3PrcgHdg=w1280" alt="Скриншот MELON 5">
+                </div>
+                <div class="screenshot">
+                    <img src="https://lh4.googleusercontent.com/BLvtCKf3pbEGYgaTSz688NZCAzcESGiyo8Vh4OqiZ-nHhUb_GZwdYeql-kCh2mdsWwWLqizWlyBipa98sfKSfwRwQHev8PIAXApCD0n0_SVg3FPsZRiBtHBuzYUVgkRTYM1yCAFvmrdX_4qJmNtBUj0aUi_E_Qieaoe4GN5m0IxakrG982wK2g=w1280" alt="Скриншот MELON 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Комментарии</h2>
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = 'https://sites.google.com/view/market-supplay1';
+                    this.page.identifier = 'market-supplay';
+                };
+                (function() {
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://https-sites-google-com-view-market-supplay1.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+        </div>
+    </section>
+    
+    <div class="support-container">
+        <a href="https://wa.me/79841755643" class="support-btn">
+            <i class="fab fa-whatsapp"></i> Тех поддержка
+        </a>
+        <a href="https://t.me/Melons_R" class="support-btn telegram-btn">
+            <i class="fab fa-telegram"></i> Telegram
+        </a>
+        <a href="#" class="support-btn donate-btn" id="donateBtn">
+            <i class="fas fa-hand-holding-heart"></i> Поддержать
+        </a>
+    </div>
+    
+    <div class="donate-modal" id="donateModal">
+        <div class="donate-content">
+            <span class="close-donate" id="closeDonate">&times;</span>
+            <h2 style="color: #FFD700; text-align: center; margin-bottom: 20px;">Поддержать разработчика</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Спасибо за вашу поддержку! ❤️</p>
+            
+            <div class="donate-amounts">
+                <div class="amount-btn" data-amount="100">100 ₽</div>
+                <div class="amount-btn" data-amount="300">300 ₽</div>
+                <div class="amount-btn" data-amount="500">500 ₽</div>
+                <div class="amount-btn" data-amount="1000">1000 ₽</div>
+                <div class="amount-btn" data-amount="2000">2000 ₽</div>
+                <div class="amount-btn" data-amount="5000">5000 ₽</div>
+            </div>
+            
+            <input type="number" class="custom-amount" placeholder="Введите сумму (₽)" id="customAmount">
+            
+            <button class="donate-submit">Поддержать</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 MELON Game. Все права защищены.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Меню версий
+        const menuToggle = document.getElementById('menuToggle');
+        const versionsMenu = document.getElementById('versionsMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const versionItems = document.querySelectorAll('.version-item');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const versionDisplay = document.getElementById('versionDisplay');
+        
+        // Объект с названиями версий для отображения
+        const versionNames = {
+            "https://disk.yandex.ru/d/hBMt7IrXtDWSRQ": "Melon 8.1.0.1 release",
+            "https://disk.yandex.ru/d/ybinzYBxyT_s4A": "Melon 8.1.0.1 pre-release",
+            "https://disk.yandex.ru/d/OcAWOYTec56AZw": "Melon 2.0.1"
+        };
+        
+        // Функция для закрытия меню
+        function closeMenu() {
+            menuToggle.classList.remove('active');
+            versionsMenu.classList.remove('active');
+            menuOverlay.classList.remove('active');
+        }
+        
+        // Открытие/закрытие меню по клику на иконку
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menuToggle.classList.toggle('active');
+            versionsMenu.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+        });
+        
+        // Закрытие меню по клику на оверлей
+        menuOverlay.addEventListener('click', closeMenu);
+        
+        // Закрытие меню по клику вне меню
+        document.addEventListener('click', (e) => {
+            if (!versionsMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                closeMenu();
+            }
+        });
+        
+        // Обработка выбора версии
+        versionItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Удаляем активный класс у всех элементов
+                versionItems.forEach(i => i.classList.remove('active'));
+                // Добавляем активный класс текущему элементу
+                item.classList.add('active');
+                // Обновляем ссылку скачивания
+                const newLink = item.getAttribute('data-link');
+                downloadBtn.href = newLink;
+                // Обновляем отображаемую версию
+                versionDisplay.innerHTML = `Текущая версия: <span>${versionNames[newLink]}</span>`;
+                // Закрываем меню
+                closeMenu();
+            });
+        });
+        
+        // Донат модальное окно
+        const donateBtn = document.getElementById('donateBtn');
+        const donateModal = document.getElementById('donateModal');
+        const closeDonate = document.getElementById('closeDonate');
+        const customAmount = document.getElementById('customAmount');
+        const amountBtns = document.querySelectorAll('.amount-btn');
+        const donateSubmit = document.querySelector('.donate-submit');
+        
+        donateBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            donateModal.style.display = 'flex';
+        });
+        
+        closeDonate.addEventListener('click', () => {
+            donateModal.style.display = 'none';
+        });
+        
+        window.addEventListener('click', (e) => {
+            if (e.target === donateModal) {
+                donateModal.style.display = 'none';
+            }
+        });
+        
+        amountBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                amountBtns.forEach(b => b.style.background = 'rgba(255, 215, 0, 0.2)');
+                btn.style.background = 'rgba(255, 215, 0, 0.6)';
+                customAmount.value = btn.getAttribute('data-amount');
+            });
+        });
+        
+        customAmount.addEventListener('input', () => {
+            amountBtns.forEach(b => b.style.background = 'rgba(255, 215, 0, 0.2)');
+        });
+        
+        donateSubmit.addEventListener('click', () => {
+            alert('Спасибо за вашу поддержку! Пожалуйста, свяжитесь с нами через кнопку "Поддержка" для уточнения деталей.');
+            donateModal.style.display = 'none';
+        });
+        
+        // Анимация загрузки и появление кнопки скачивания
+        const loader = document.getElementById('loader');
+        const downloadSection = document.getElementById('downloadSection');
+        
+        setTimeout(() => {
+            loader.style.display = 'none';
+            downloadSection.classList.add('show');
+        }, 2000);
+    </script>
+</body>
+</html>
